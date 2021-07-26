@@ -1,0 +1,20 @@
+.infinite-scroll-container {
+  .photos {
+    background-color: #eaeaea;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .fetch-images-indicator {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: #eaeaea;
+  }
+}
